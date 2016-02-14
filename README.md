@@ -2,7 +2,7 @@
 
 <h2>Basic Challenges</h2>
 
-	<h2>Challenge 1</h2>
+	Challenge 1
 	
 		Questin: Find the password in the page
 		URL: http://www.thisislegal.com/challenge/1
