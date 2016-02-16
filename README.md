@@ -59,5 +59,22 @@
 				Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/0.9.7a mod_bwlimited/1.4 mod_fcgid/2.3.9 Server at www.thisislegal.com Port 80
 			click on success.php
 		Answer: Click on success.php
-
+<hr>
+	Challenge 4
+	
+		Questin: Beat the cookie script
+		URL: http://www.thisislegal.com/challenge/4
+			Open Tamper Data, go to the link http://www.thisislegal.com/challenge/4. Intercepts requests, change the value of the cookies
+			ALLOWED_ACCESS with NO to YES
+		Answer: ALLOWED_ACCESS=YES
+		
+<hr>
+	Challenge 5
+	
+		Questin: Trick this email form below into sending you the password.
+		URL: http://www.thisislegal.com/challenge/5
+			Open Tamper Data, press button "Email Password", intercepts requests, change the value of the parameter "to" 
+			with "not_real%40thisislegal.com" to your email.
+		Answer: change the value of the parameter "to" 
+		
 <hr>
